@@ -1,0 +1,24 @@
+variables: variables are containers for storing data values,like numbers and characters...
+
+In Dart, variables are defined and declared using the var, final, const, or specific type names like int, String, etc.
+
+var: Type is inferred by the Dart compiler, and the value can change after initialization.
+final: Type can be inferred or specified, and the variable is initialized only once. It cannot be reassigned.
+const: Type can be inferred or specified, and the value must be a compile-time constant. It is implicitly final.
+//first question over
+
+int     Description: Represents integer numbers.
+
+Example: int age = 30;
+
+
+double	Floating-point number	double height = 5.9;	No
+String	Sequence of characters	String name = 'Alice';	No
+bool	Boolean value (true or false)	bool isActive = true;	No
+List	Ordered collection of items	List<String> fruits = ['apple', 'banana'];	Yes
+Set	Unordered collection of unique items	Set<int> numbers = {1, 2, 3};	Yes
+Map	Key-value pairs	Map<String, int> ageMap = {'Alice': 30};	Yes
+dynamic	Any type, type checking deferred	dynamic value = 'text';	Yes
+Object	Base class for all Dart objects	Object obj = 'text';	Yes
+class	Custom data type with properties and methods	class Person { ... }	Yes
+enum	Fixed set of constant values	enum Status { active, inactive }	No
